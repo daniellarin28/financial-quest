@@ -1,0 +1,54 @@
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+h1 { color: #4CAF50; }
+.month {
+  background: #1e1e1e;
+  margin: 10px auto;
+  padding: 15px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: left;
+}
+.month h2 {
+  margin: 0;
+  cursor: pointer;
+  color: #4CAF50;
+}
+.month .details {
+  display: none;
+  margin-top: 10px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input { padding: 5px; width: 100px; }
+#progress-bar {
+  width: 80%; height: 20px;
+  background-color: #333; margin: 20px auto;
+  border-radius: 10px; overflow: hidden;
+}
+#progress-fill {
+  height: 100%; width: 0%;
+  background-color: #4CAF50; transition: width 0.5s;
+}
+#achievement-popup {
+  margin-top: 20px;
+  color: #FFD700;
+  font-weight: bold;
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  from {opacity: 0;} to {opacity: 1;}
+}
